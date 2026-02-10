@@ -1,0 +1,12 @@
+"""Bluetooth Attack Config"""
+HCI_DEVICE = "hci0"
+SCAN_TIMEOUT = 10
+BLE_SCAN_TIMEOUT = 15
+KNOWN_VULNERABILITIES = {
+    "BlueBorne": "CVE-2017-0781",
+    "KNOB": "CVE-2019-9506",
+    "BLURtooth": "CVE-2020-15802",
+    "BrakTooth": "CVE-2021-28139",
+    "BIAS": "CVE-2020-10135",
+}
+FUZZ_ITERATIONS = 1000

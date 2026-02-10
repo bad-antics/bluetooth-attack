@@ -1,0 +1,3 @@
+"""Bluetooth/BLE exploitation and security testing"""
+__version__ = "2.0.0"
+__author__ = "bad-antics"
